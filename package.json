@@ -1,0 +1,19 @@
+{
+    "name": "coba_portfolio_sass",
+    "version": "1.0.0",
+    "description": "Portfolio With Sass",
+    "main": "index.js",
+    "scripts": {
+        "sass:build": "sass scss:css",
+        "sass:watch": "sass --watch scss:css",
+        "build": "sass --style=compressed scss:css"
+    },
+    "author": "Naufal Farras Hilmy",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "bootstrap-icons": "^1.11.3",
+        "lightbox2": "^2.11.4",
+        "sass": "^1.77.6"
+    }
+}
